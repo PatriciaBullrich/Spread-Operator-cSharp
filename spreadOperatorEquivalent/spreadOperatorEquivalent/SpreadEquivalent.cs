@@ -18,7 +18,7 @@ namespace spreadOperatorEquivalent
         /// <param name="newValues"> the second object only filled with what you want to change from the first one</param>
         /// <returns> The same type of class passed to the generic type</returns
 
-        public static bool isFalsy(int? value)
+        private static bool isFalsy(int? value)
         {
             //supossing my atributes are nullable
             try
@@ -33,7 +33,7 @@ namespace spreadOperatorEquivalent
         }
 
 
-        public static bool isFalsy(char? value)
+        private static bool isFalsy(char? value)
         {
             //supossing my atributes are nullable
             try
@@ -48,7 +48,7 @@ namespace spreadOperatorEquivalent
         }
 
 
-        public static bool isFalsy(bool? value)
+        private static bool isFalsy(bool? value)
         {
             //supossing my atributes are nullable
             try
@@ -62,7 +62,7 @@ namespace spreadOperatorEquivalent
             return false;
         }
 
-        public static bool isFalsy(double? value)
+        private static bool isFalsy(double? value)
         {
             //supossing my atributes are nullable
             try
@@ -76,7 +76,7 @@ namespace spreadOperatorEquivalent
             return false;
         }
 
-        public static bool isFalsy(float? value)
+        private static bool isFalsy(float? value)
         {
             //supossing my atributes are nullable
             try
@@ -91,7 +91,7 @@ namespace spreadOperatorEquivalent
         }
 
 
-        public static bool isFalsy(decimal? value)
+        private static bool isFalsy(decimal? value)
         {
             //supossing my atributes are nullable
             try
@@ -105,7 +105,7 @@ namespace spreadOperatorEquivalent
             return false;
         }
 
-        public static bool isFalsy(short? value)
+        private static bool isFalsy(short? value)
         {
             //supossing my atributes are nullable
             try
@@ -118,7 +118,7 @@ namespace spreadOperatorEquivalent
             }
             return false;
         }
-        public static bool isFalsy(byte? value)
+        private static bool isFalsy(byte? value)
         {
             //supossing my atributes are nullable
             try
@@ -132,7 +132,7 @@ namespace spreadOperatorEquivalent
             return false;
         }
 
-        public static bool isFalsy(object value)
+        private static bool isFalsy(object value)
         {
             return value == null;
         }
