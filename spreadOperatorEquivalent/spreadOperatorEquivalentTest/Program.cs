@@ -39,7 +39,7 @@ namespace spreadOperatorEquivalentTest
             //output name: George age: 10
             Person person3 = new Person();
             Person person4 = new Person(10, "George"); 
-            person3 = SpreadEquivalent.spread<Person>(person3, person4);
+            person3 = SpreadEquivalent.spread(person3, person4);
             Console.WriteLine("name: {0}, age: {1}", person3.name, person3.age);
 
             // TEST 3
@@ -47,7 +47,7 @@ namespace spreadOperatorEquivalentTest
             //output name: George age: 20
             Person person5 = new Person(10, "George");
             Person person6 = new Person(20, null); 
-            person5 = SpreadEquivalent.spread<Person>(person5, person6);
+            person5 = SpreadEquivalent.spread(person5, person6);
             Console.WriteLine("name: {0}, age: {1}", person5.name, person5.age);
 
 
@@ -56,7 +56,7 @@ namespace spreadOperatorEquivalentTest
             //output name: George age: no output
             Person person7 = new Person(null, "George");
             Person person8 = new Person(null, null);
-            person7 = SpreadEquivalent.spread<Person>(person7, person8);
+            person7 = SpreadEquivalent.spread(person7, person8);
             Console.WriteLine("name: {0}, age: {1}", person7.name, person7.age);
 
             // TEST 5
@@ -71,17 +71,6 @@ namespace spreadOperatorEquivalentTest
 
         }
 
-        /*
-          public static void Main(string[] args)
-        {
-            Persona p = new Persona();
-            p.nombre= "juan";
-            p.edad = 6;
-            Persona nueva = new Persona();
-            nueva.nombre= "jorge";
-            p = spreadSecondVersion(p, nueva);
-            Console.WriteLine("nombre: {0} edad:{1}", p.nombre,p.edad);
-        }
-         */
+      
     }
 }
