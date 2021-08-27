@@ -1,0 +1,9 @@
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\bin\Debug\netstandard2.0\spreadOperatorEquivalent.deps.json
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\bin\Debug\netstandard2.0\spreadOperatorEquivalent.dll
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\bin\Debug\netstandard2.0\spreadOperatorEquivalent.pdb
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\obj\Debug\netstandard2.0\spreadOperatorEquivalent.csprojAssemblyReference.cache
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\obj\Debug\netstandard2.0\spreadOperatorEquivalent.AssemblyInfoInputs.cache
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\obj\Debug\netstandard2.0\spreadOperatorEquivalent.AssemblyInfo.cs
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\obj\Debug\netstandard2.0\spreadOperatorEquivalent.csproj.CoreCompileInputs.cache
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\obj\Debug\netstandard2.0\spreadOperatorEquivalent.dll
+C:\Users\devandroid\source\repos\spreadOperatorEquivalent\spreadOperatorEquivalent\obj\Debug\netstandard2.0\spreadOperatorEquivalent.pdb
